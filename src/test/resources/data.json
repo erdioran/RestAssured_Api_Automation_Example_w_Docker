@@ -1,0 +1,58 @@
+{
+  "url": {
+    "arf_url": "https://26b94f38-fd70-4ebb-b1c3-0fd4032528c5.mock.pstmn.io/api",
+    "version": "/v1",
+    "business": "/business",
+    "payouts": "/payouts",
+    "accounts": "/accounts"
+  },
+  "accessData": {
+    "arfClientId": "1db9c9b6c959682be7c96f74ca532c3cb0bd331f46b86a92602f8d319481b6f5"
+  },
+  "accounts": {
+    "account_id": "a607beed-8036-4ef4-b7ef-83c166ef84e4",
+    "business_id": "",
+    "individual_id": ""
+  },
+  "status_types": {
+    "status_success": "success",
+    "type_business": "business",
+    "type_individual": "individual"
+  },
+  "status": {
+    "ok": "200"
+  },
+  "businessAccount": {
+    "name": "Tasty Fresh Pants",
+    "email": "Immanuel1@yahoo.com",
+    "nationality": "TUR",
+    "dob": "1990-01-01",
+    "type": "1990-01-01",
+    "country_code": "TUR"
+  },
+  "individualAccount": {
+    "first_name": "Darrel",
+    "last_name": "Schulist",
+    "email": "Gabrielle_Batz@yahoo.com",
+    "nationality": "TUR",
+    "dob": "1990-01-01",
+    "type": "business",
+    "identification_type": "passport",
+    "identification_value": "passport_no",
+    "country_code": "country_code"
+  },
+  "payout": {
+    "external_id": "ARF38677",
+    "sender_id": "23sfs34-af58-409c-b085-9da69f79cfb4",
+    "beneficiary_id": "5d1f31fa-af58-409c-b085-9da69f79cfb4",
+    "account_number": "005540066414",
+    "type": "PAYOUT_AFG_BANK",
+    "bank_code": "bank_code",
+    "currency": "USDC",
+    "value": "10",
+    "relationship": "10199",
+    "source_of_fund": "20199",
+    "purpose": "purpose"
+  }
+}
+

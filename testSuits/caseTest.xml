@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.erdioran.listener.ExtentReportListener"/>
+    </listeners>
+    <test parallel="methods" thread-count="1"  name="com.erdioran.testCases.CreateAccounts">
+        <classes>
+            <class name="com.erdioran.testCases.CreateAccounts">
+                <methods>
+                    <include name="createBusinessAccount200"/>
+                    <include name="createIndividualAccount200"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test parallel="methods" thread-count="1"  name="com.erdioran.testCases.PayOut">
+        <classes>
+            <class name="com.erdioran.testCases.PayOut">
+                <methods>
+                    <include name="postPayOut200"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test parallel="methods" thread-count="1"  name="com.erdioran.testCases.GetAccount">
+        <classes>
+            <class name="com.erdioran.testCases.GetAccount">
+                <methods>
+                    <include name="getRetrieveAccount200"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
