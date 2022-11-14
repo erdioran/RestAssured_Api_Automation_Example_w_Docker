@@ -24,6 +24,18 @@ It is created inside this file after the test is complete -> `/extent-reports/`
 
 -  Docker configuration file -> [Dockerfile](https://github.com/erdioran/erdioran_api_automation/blob/master/Dockerfile)
 
+```sh
+$ docker pull maven:3.6.3-jdk-8
+$ docker build -t <imaganame>:1 .
+$ docker run <imaganame>:1
+
+$ docker ps -a
+$ docker commit <containerId>
+$ docker tag <containerId> <dockerUserName>/java8-3.6.3-testdep:latestdocker 
+$ docker login 
+$ push <dockerUserName>/arfapiimage:latest
+```
+
 |         | VERSION |
 | -------| ----- |
 | Rest Assured   | 5.0.1  |
