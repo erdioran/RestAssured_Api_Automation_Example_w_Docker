@@ -24,6 +24,8 @@ It is created inside this file after the test is complete -> `/extent-reports/`
 
 -  Docker configuration file -> [Dockerfile](https://github.com/erdioran/erdioran_api_automation/blob/master/Dockerfile)
 
+## Docker Build & Container Run
+
 ```sh
 $ docker pull maven:3.6.3-jdk-8
 $ docker build -t <imaganame>:1 .
