@@ -3,7 +3,7 @@
 
 ## Run 
 
-Run this suite -> [/testSuits/caseTest.xml](https://github.com/erdioran/erdioran_api_automation/blob/master/testSuits/caseTest.xml)
+Run this suite -> [/testng.xml](https://github.com/erdioran/erdioran_api_automation/blob/master/testng.xml)
 
 ## Report 
 It is created inside this file after the test is complete -> `/extent-reports/`
