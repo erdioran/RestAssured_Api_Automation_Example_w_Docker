@@ -14,7 +14,7 @@ public class ExtentManager {
 
     static {
         String timeStamp = new SimpleDateFormat("dd_MMM_yyy_HH_mm_ss", Locale.ENGLISH).format(new Date());
-        String reportFileName = "Test_Report_".concat(timeStamp).concat(".html");
+        String reportFileName = "Test_Report_Arf.html";
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-reports/" + reportFileName);
 
         htmlReporter.config().setReportName("Arf BE Rest Assured Reports");
