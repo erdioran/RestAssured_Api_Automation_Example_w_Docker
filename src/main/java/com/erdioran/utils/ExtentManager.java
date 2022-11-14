@@ -18,7 +18,7 @@ public class ExtentManager {
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-reports/" + reportFileName);
 
         htmlReporter.config().setReportName("Arf BE Rest Assured Reports");
-        htmlReporter.config().setDocumentTitle("Arf BE Rest Assured Repors");
+        htmlReporter.config().setDocumentTitle("Arf BE Rest Assured Reports");
         EXTENT_REPORTS.attachReporter(htmlReporter);
         EXTENT_REPORTS.setSystemInfo("Suite File", Constant.xmlSuiteFileName);
         EXTENT_REPORTS.setSystemInfo("Author", "Erdi Oran");
