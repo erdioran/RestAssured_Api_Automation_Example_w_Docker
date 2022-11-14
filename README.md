@@ -3,7 +3,7 @@
 
 ## Run 
 
-Run this suite -> [/testSuits/caseTest.xml](https://github.com/erdioran/erdioran_api_automation/blob/master/testSuits/caseTest.xml)
+Run this suite -> [/testng.xml](https://github.com/erdioran/erdioran_api_automation/blob/master/testng.xml)
 
 ## Report 
 It is created inside this file after the test is complete -> `/extent-reports/`
@@ -22,6 +22,7 @@ It is created inside this file after the test is complete -> `/extent-reports/`
 
 -  Test report settings are in [ExtentManager](https://github.com/erdioran/erdioran_api_automation/blob/master/src/main/java/com/erdioran/utils/ExtentManager.java) and [ExtentTestManager](https://github.com/erdioran/erdioran_api_automation/blob/master/src/main/java/com/erdioran/utils/ExtentTestManager.java) files under  "/src/main/java/com/erdioran/utils" file.
 
+-  Docker configuration file -> [Dockerfile](https://github.com/erdioran/erdioran_api_automation/blob/master/Dockerfile)
 
 |         | VERSION |
 | -------| ----- |
